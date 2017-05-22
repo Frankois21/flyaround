@@ -1,0 +1,24 @@
+planelmodel_index:
+    path:     /
+    defaults: { _controller: "flyaroundcoavBundle:PlanelModel:index" }
+    methods:  GET
+
+planelmodel_show:
+    path:     /{id}/show
+    defaults: { _controller: "flyaroundcoavBundle:PlanelModel:show" }
+    methods:  GET
+
+planelmodel_new:
+    path:     /new
+    defaults: { _controller: "flyaroundcoavBundle:PlanelModel:new" }
+    methods:  [GET, POST]
+
+planelmodel_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "flyaroundcoavBundle:PlanelModel:edit" }
+    methods:  [GET, POST]
+
+planelmodel_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "flyaroundcoavBundle:PlanelModel:delete" }
+    methods:  DELETE

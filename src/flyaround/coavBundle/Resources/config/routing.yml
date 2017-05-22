@@ -1,0 +1,19 @@
+flyaroundcoav_planelmodel:
+    resource: "@flyaroundcoavBundle/Resources/config/routing/planelmodel.yml"
+    prefix:   /planemodel
+
+flyaroundcoav_homepage:
+    path:     /
+    defaults: { _controller: flyaroundcoavBundle:Default:index }
+
+flyaroundcoav_flight:
+        resource: "@flyaroundcoavBundle/Resources/config/routing/flight.yml"
+        prefix:   /flight
+
+flyaroundcoav_reservation:
+        resource: "@flyaroundcoavBundle/Resources/config/routing/reservation.yml"
+        prefix:   /reservation
+
+flyaroundcoav_terrain:
+        resource: "@flyaroundcoavBundle/Resources/config/routing/terrain.yml"
+        prefix:   /terrain
